@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    border: 1px solid black;
+    height: 20em;
+    width: 20em;
+    border-radius: 20%;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+/*main div img:nth-child(2){
+    transform: rotate(15deg);
+}
+main div img:nth-child(3){
+    transform: rotate(170deg);
+}
+main div img:nth-child(4){
+    transform: rotate(220deg);
+}*/
+
+.wrapperHorloge{
+    position: relative;
+    width: 20em;
+    height: 20em;
+}
+.horlogeElement{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
